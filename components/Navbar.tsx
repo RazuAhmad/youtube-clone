@@ -5,12 +5,15 @@ import Stack from "@mui/material/Stack";
 import Link from "next/link";
 import logo from "../public/assets/youtub-logo.png";
 import Image from "next/image";
+import SearchBar from "./SearchBar";
 const Navbar = () => {
   return (
     <Stack
       direction="row"
       alignItems="center"
+      justifyContent="space-between"
       spacing={14}
+      p={2}
       sx={{
         position: "sticky",
         background: "#000",
@@ -20,6 +23,8 @@ const Navbar = () => {
       <Link href="/" className="flex items-center">
         <Image src={logo} alt="" height={45} width={45} />
       </Link>
+
+      <SearchBar />
     </Stack>
   );
 };
