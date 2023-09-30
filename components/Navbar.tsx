@@ -11,17 +11,18 @@ const Navbar = () => {
     <Stack
       direction="row"
       alignItems="center"
-      justifyContent="space-between"
+
       spacing={14}
       p={2}
       sx={{
         position: "sticky",
         background: "#000",
         top: 0,
+        justifyContent: "space-between"
       }}
     >
       <Link href="/" className="flex items-center">
-        <Image src={logo} alt="" height={45} width={45} />
+        <Image src={logo} alt="" height={45} />
       </Link>
 
       <SearchBar />

@@ -5,8 +5,8 @@ import { Search } from "@mui/icons-material";
 const SearchBar = () => {
   return (
     <Paper
-      component="form"
-      onSubmit={() => {}}
+      // component="form"
+      onSubmit={() => { }}
       sx={{
         borderRadius: 20,
         border: "1px solid #e3e3e3",
@@ -20,7 +20,7 @@ const SearchBar = () => {
         className="search-bar"
         placeholder="Search..."
         value=""
-        onChange={() => {}}
+        onChange={() => { }}
       />
       <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
         <Search />
