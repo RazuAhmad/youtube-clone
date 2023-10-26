@@ -4,7 +4,7 @@ const ChannelCard = ({ channelDetail }) => {
 
 
     return (
-        <div className='text-white'>ChannelCard</div>
+        <div className='text-white'>ChannelCard1</div>
     )
 }
 
